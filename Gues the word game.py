@@ -3,7 +3,7 @@ secret_word = "ciao"
 gues = ""
 
 while i < 3:
-     gues = input("insert the word: ")
+     gues = input("Enter: ")
      if gues == secret_word:
         print("You win")
         break
